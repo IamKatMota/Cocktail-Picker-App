@@ -1,0 +1,71 @@
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #333;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #fff;
+  margin: 20px 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.instruct {
+  font-size: 1.2em;
+  color: #fff;
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2.5em;
+  }
+  
+  h2 {
+      font-size: 1.8em;
+  }
+
+  .instruct {
+      font-size: 1em;
+  }
+}
